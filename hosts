@@ -1,0 +1,296 @@
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1	localhost
+255.255.255.255	broadcasthost
+::1             localhost
+fe80::1%lo0	localhost
+#
+127.0.0.1	www.apple.com
+17.171.8.17	crl.apple.com
+17.146.232.12	swscan.apple.com	 # SoftwareUpdate.framework
+# 127.0.0.1	qa2-int-swscan.apple.com # SoftwareUpdate.framework
+# 127.0.0.1	swcdnlocator.apple.com	 # SoftwareUpdate.framework
+127.0.0.1	validation.isu.apple.com # SoftwareUpdate.framework
+# 127.0.0.1	help.apple.com		# HelpData.framework
+# 127.0.0.1	helpqt.apple.com	# HelpData.framework
+# 127.0.0.1	helposx.apple.com	# HelpData.framework
+# 127.0.0.1	support.apple.com	# HelpData.framework
+# 127.0.0.1	lookup-api.apple.com	# Lookup.framework
+# 127.0.0.1	pubsbuild.apple.com	# docsetinstalld
+# 127.0.0.1	extensions.apple.com	   # Safari.framework
+# 127.0.0.1	stage-extensions.apple.com # Safari.framework
+# 127.0.0.1	plugins.apple.com	   # Safari.framework
+127.0.0.1	suggest.yandex.net	   # Safari.framework
+127.0.0.1	suggestion.baidu.com	   # Safari.framework
+127.0.0.1	api.bing.com		   # Safari.framework
+127.0.0.1	sugg.search.yahoo.net	   # Safari.framework
+# 127.0.0.1	userpub.itunes.apple.com    # iBooks.app
+# 127.0.0.1	vocabulary.itunes.apple.com # iBooks.app
+# 127.0.0.1	gcsp.clb.cddbp.net		# iTunes.app
+# 127.0.0.1	gcsp.cddbp.net			# iTunes.app
+127.0.0.1	members.mac.com		        # iTunes.app
+127.0.0.1	members.me.com		        # iTunes.app
+127.0.0.1	safebrowsing.clients.google.com # iTunes.app
+127.0.0.1	nikerunning.nike.com		# iTunes.app
+127.0.0.1	s.mzstatic.com			# iTunes.app
+127.0.0.1	ax.itunes.apple.com		# iTunes.app
+127.0.0.1	limit.itunesu.com		# iTunes.app
+127.0.0.1	configuration.apple.com
+127.0.0.1	iforgot.apple.com
+127.0.0.1	identity.apple.com	# AppleIDAuthAgent
+127.0.0.1	appleid.apple.com	# Accounts.prefPane
+127.0.0.1	reg1.apple.com		# Setup Assistant.app
+127.0.0.1	littlebuddy.apple.com	# Setup Assistant.app
+127.0.0.1	iadsdk.apple.com	# iAdCore.framework
+127.0.0.1	gil.apple.com           # InternetAccounts.framework
+127.0.0.1	fdereg.apple.com	# Security.framework
+127.0.0.1	timestamp.apple.com	# Security.framework
+127.0.0.1	init-p01st.push.apple.com # ApplePushService.framework
+127.0.0.1	init-s01st.push.apple.com # ApplePushService.framework
+127.0.0.1	albert.apple.com	  # ApplePushService.framework
+127.0.0.1	www.me.com		# AOSKit.framework
+127.0.0.1	setup.icloud.com	# AOSKit.framework
+127.0.0.1	icloud.com		# AOSKit.framework
+127.0.0.1	init.ess.apple.com	# IMFoundation.framework
+127.0.0.1	init-p01md.apple.com	# IMFoundation.framework
+127.0.0.1	scento.apple.com	# Install.framework
+127.0.0.1	mac-services.apple.com	# MailCore.framework
+127.0.0.1	idisk.mac.com		# OSServices.framework
+127.0.0.1	validation.apple.com	# PrintingPrivate.framework
+127.0.0.1	qtpartners.apple.com	# RTCReporting.framework
+127.0.0.1	public.me.com		# ScreenReader.framework
+127.0.0.1	pm-members.mac.com	# btmmdiagnose
+127.0.0.1	marimba.apple.com	# Slideshows.framework
+127.0.0.1	gsp2.apple.com		# Slideshows.framework
+127.0.0.1	porco.apple.com		# StoreUI.framework
+127.0.0.1	iprofiles.apple.com	# cloudconfigurationd
+127.0.0.1	suconfig.apple.com	# cloudconfigurationd
+127.0.0.1	radarsubmissions.apple.com        # SubmitDiagInfo
+127.0.0.1	messagetracer-whitelist.apple.com # SubmitDiagInfo
+127.0.0.1	speedtracer.apple.com    # Problem Reporter.app
+127.0.0.1	tracerx-radars.apple.com # Problem Reporter.app
+127.0.0.1	icalserver.apple.com    # ManagedClient.app
+127.0.0.1	bugreport.apple.com	 # IMLoggingAgent
+127.0.0.1	1-courier.push.apple.com # IMLoggingAgent
+127.0.0.1	2-courier.push.apple.com # IMLoggingAgent
+127.0.0.1	6-courier.push.apple.com # IMLoggingAgent
+127.0.0.1	init.itunes.apple.com	 # CommerceKit.framework
+127.0.0.1	ax.init.itunes.apple.com # CommerceKit.framework
+127.0.0.1	phobos.apple.com	 # CommerceKit.framework
+127.0.0.1	sandbox.itunes.apple.com # CommerceKit.framework
+127.0.0.1	static.gc.apple.com	# GameKit.framework
+127.0.0.1	sandbox.gc.apple.com	# GameKit.framework
+127.0.0.1	td1.apple.com		# GameKit.framework
+127.0.0.1	z2r0y.apple.com		# GameKit.framework
+127.0.0.1	td2.apple.com		# GameKit.framework
+127.0.0.1	df6ed.apple.com		# GameKit.framework
+127.0.0.1	td3.apple.com		# GameKit.framework
+127.0.0.1	cp7vi.apple.com		# GameKit.framework
+127.0.0.1	td4.apple.com		# GameKit.framework
+127.0.0.1	gz8rm.apple.com		# GameKit.framework
+127.0.0.1	link.gc.apple.com	# GameKit.framework
+127.0.0.1	init.gc.apple.com	# GameKit.framework
+127.0.0.1	redcarpet.apple.com	# HelpViewer.app
+127.0.0.1	static.ips.apple.com	# Social.framework
+127.0.0.1	internalcheck.apple.com	# CrashReporterSupport.framework
+127.0.0.1	guzzoni.apple.com	# AssistantServices.framework
+127.0.0.1	hello.connectivity.me.com # mDNSResponder
+127.0.0.1	gateway.push.apple.com	# emond
+127.0.0.1	push.apple.com		# networkd
+127.0.0.1	gsp9-ssl.apple.com	# locationd
+127.0.0.1	gsp10-ssl.apple.com	# locationd
+127.0.0.1	gsp10-ssl.apple.com.com # locationd
+127.0.0.1	gs-loc.apple.com	# locationd
+127.0.0.1	iphone-ld.apple.com	# locationd
+127.0.0.1	cl-dev.apple.com	# locationd
+127.0.0.1	cl2.apple.com		# locationd
+127.0.0.1	cl3.apple.com		# locationd
+127.0.0.1	gspa35-ssl.ls.apple.com	# GeoServices.framework
+127.0.0.1	gsp-ssl.ls.apple.com	# GeoServices.framework
+127.0.0.1	gspa21.ls.apple.com	# GeoServices.framework
+127.0.0.1	gsp1.apple.com		# GeoServices.framework
+127.0.0.1	gsps36.ls.apple.com	# GeoServices.framework
+127.0.0.1	gs.apple.com		# MobileDevice.framework
+127.0.0.1	appleconnect.apple.com	# MobileDevice.framework
+127.0.0.1	sso.corp.apple.com	# MobileDevice.framework
+127.0.0.1	lookup-api.apple.com	# Dictionary.app
+127.0.0.1	copyfight.corante.com	# CaptiveSystemAgent.plugin
+127.0.0.1	apsu.apple.com		# AirPort Utility.app
+127.0.0.1	apfw.apple.com		# AirPort Utility.app
+127.0.0.1	metrics.apple.com	# App Store.app
+127.0.0.1	wu-calculator.apple.com # Calculator.app
+127.0.0.1	icalbridge.apple.com	# Calendar.app
+127.0.0.1	feedback.apple.com	# Mail.app
+127.0.0.1	manifest2.inn.rdca.ls.apple.com # Maps.app
+127.0.0.1	slogin.oscar.aol.com	# Messages.app
+127.0.0.1	api.oscar.aol.com	# Messages.app
+127.0.0.1	gdata.youtube.com	  # QuickTime Player.app
+127.0.0.1	uploads.gdata.youtube.com # QuickTime Player.app
+127.0.0.1	maps.apple.com		  # QuickTime Player.app
+127.0.0.1	depot.info.apple.com	# System Information.app
+127.0.0.1	iclab.apple.com		# QuickTime Plugin.plugin
+127.0.0.1	aolauth.icloud.com	# AIM.imservice
+127.0.0.1	aolauthtest.icloud.com	# AIM.imservice
+127.0.0.1	api.screenname.aol.com	# AIM.imservice
+127.0.0.1	startpage.aol.com	# AIM.imservice
+127.0.0.1	my.screenname.aol.com	# AIM.imservice
+127.0.0.1	api.login.aol.com	# AIM.imservice
+127.0.0.1	developer.aim.com	# AIM.imservice
+127.0.0.1	login.oscar.aol.com	# AIM.imservice
+127.0.0.1	ars.oscar.aol.com	# AIM.imservice
+127.0.0.1	aimhttp.oscar.aol.com	# AIM.imservice
+127.0.0.1	talk.google.com		# Jabber.impreferencepane
+127.0.0.1	msg.yahoo.com			     # Yahoo.imserviceplugin
+127.0.0.1	api.login.yahoo.com		     # Yahoo.imserviceplugin
+127.0.0.1	login.yahoo.com			     # Yahoo.imserviceplugin
+127.0.0.1	developer.messenger.yahooapis.com    # Yahoo.imserviceplugin
+127.0.0.1	displayimage.messenger.yahooapis.com # Yahoo.imserviceplugin
+127.0.0.1	ftrelay.messenger.yahooapis.com	     # Yahoo.imserviceplugin
+127.0.0.1	attwifi.apple.com	# CaptiveNetworkSupport
+127.0.0.1	proddav.apple.com	# iWork.qlgenerator
+127.0.0.1	rabat.apple.com		# iWork.qlgenerator
+127.0.0.1	members.btmm.icloud.com	# Shared Screen Viewer.app
+127.0.0.1	idisk.me.com		# webdav_fs.kext
+127.0.0.1	contacts.icloud.com	# AddressBook.framework
+127.0.0.1	ink.apple.com		# Print.framework
+127.0.0.1	gir.apple.com		# InstallerPlugins.framework
+127.0.0.1	photocast.me.com	# ScreenSaver.framework
+127.0.0.1	gallery.me.com		# WebCore.framework
+127.0.0.1	tid.canon.com		# PTPCamera.app
+127.0.0.1	fmip.me.com		# AOSNotification.framework
+127.0.0.1	courier.sandbox.push.apple.com # apsd
+127.0.0.1	courier.push.apple.com	       # apsd
+127.0.0.1	sandbox.push.apple.com	       # apsd
+127.0.0.1	trackingshipment.apple.com # DataDetectors.framework
+127.0.0.1	event.apple.com		   # DataDetectors.framework
+127.0.0.1	gsp17-ssl.apple.com	# GeoServices.framework
+127.0.0.1	gsp17-2-ssl.apple.com	# GeoServices.framework
+127.0.0.1	webservices.mac.com	# ISSupport.framework
+127.0.0.1	m3.mac.com		# ISSupport.framework
+127.0.0.1	iphonesubmissions.apple.com # AppleMobileDeviceHelper.app
+127.0.0.1	iphonediags.apple.com	    # AppleMobileDeviceHelper.app
+127.0.0.1	vinkjo8.apple.com	# SetupAssistantSupport.framework
+127.0.0.1	secure.me.com		# SetupAssistantSupport.framework
+127.0.0.1	turn.oscar.aol.com	# VideoConference.framework
+127.0.0.1	apple-mobile.query.yahooapis.com # WeatherKit.framework
+127.0.0.1	api.wunderground.com		 # WeatherKit.framework
+127.0.0.1	lookup.apple.com	# WhitePages.framework
+127.0.0.1	wu.apple.com		# WidgetResources
+127.0.0.1	wu-quotes.apple.com	# WidgetResources
+127.0.0.1	iphone-wu.apple.com	# WidgetResources
+127.0.0.1	wu-stocks.apple.com	# WidgetResources
+127.0.0.1	wu-charts.apple.com	# WidgetResources
+127.0.0.1	wu-converter.apple.com	# WidgetResources
+127.0.0.1	caldav.icloud.com	# CalendarPersistence.framework
+127.0.0.1	ical.mac.com		# CalendarPersistence.framework
+127.0.0.1	qtsoftware.apple.com	# QuickTime.framework
+127.0.0.1	quicktimepro.apple.com	# QuickTime.framework
+127.0.0.1	idmsauth-uat.corp.apple.com      # Feedback Assistant.app
+127.0.0.1	idmsa.apple.com		         # Feedback Assistant.app
+127.0.0.1	appleconnect-uat.apple.com       # Feedback Assistant.app
+127.0.0.1	appleseed-stage.apple.com        # Feedback Assistant.app
+127.0.0.1	appleseed.apple.com	         # Feedback Assistant.app
+127.0.0.1	iforgot-uat.apple.com	         # Feedback Assistant.app
+127.0.0.1	xseedapps.apple.com	         # Feedback Assistant.app
+127.0.0.1	appleseed-temp.apple.com         # Feedback Assistant.app
+127.0.0.1	crucio.apple.com	         # Feedback Assistant.app
+127.0.0.1	ac-at.apple.com		         # Feedback Assistant.app
+127.0.0.1	iforgott.apple.com	         # Feedback Assistant.app
+127.0.0.1	mobile-uat.corp.apple.com        # Feedback Assistant.app
+127.0.0.1	idmswt.corp.apple.com	         # Feedback Assistant.app
+127.0.0.1	mobile.apple.com	         # Feedback Assistant.app
+127.0.0.1	privftp.apple.com	         # Feedback Assistant.app
+127.0.0.1	cssubmissions-uat.corp.apple.com # Feedback Assistant.app
+127.0.0.1	cssubmissions.apple.com		 # Feedback Assistant.app
+# 127.0.0.1	www.chromium.org	             # Chromium.app
+# 127.0.0.1	www.chrome.com			     # Chromium.app
+# 127.0.0.1	developer.chrome.com		     # Chromium.app
+# 127.0.0.1	chrome.google.com		     # Chromium.app
+# 127.0.0.1	m.google.com		             # Chromium.app
+# 127.0.0.1	www.google.com		             # Chromium.app
+# 127.0.0.1	www.youtube.com			     # Chromium.app
+# 127.0.0.1	code.google.com			     # Chromium.app
+# 127.0.0.1	docs.google.com		             # Chromium.app
+# 127.0.0.1	groups.google.com	             # Chromium.app
+# 127.0.0.1	plus.google.com			     # Chromium.app
+127.0.0.1	plus.sandbox.google.com		     # Chromium.app
+127.0.0.1	ddm.google.com			     # Chromium.app
+127.0.0.1	drive.google.com	             # Chromium.app
+127.0.0.1	www.googledrive.com	             # Chromium.app
+127.0.0.1	history.google.com		     # Chromium.app
+127.0.0.1	mail.google.com			     # Chromium.app
+127.0.0.1	tools.google.com		     # Chromium.app
+127.0.0.1	wallet.google.com		     # Chromium.app
+127.0.0.1	wallet-web.sandbox.google.com	     # Chromium.app
+# 127.0.0.1	maps.google.com		             # Chromium.app
+# 127.0.0.1	picasaweb.google.com		     # Chromium.app
+# 127.0.0.1	sites.google.com		     # Chromium.app
+# 127.0.0.1	support.google.com	             # Chromium.app
+# 127.0.0.1	translate.google.com	             # Chromium.app
+127.0.0.1	checkout.google.com		     # Chromium.app
+127.0.0.1	cloudprint.google.com		     # Chromium.app
+127.0.0.1	apis.google.com		             # Chromium.app
+127.0.0.1	www.googleapis.com	             # Chromium.app
+# 127.0.0.1	maps.googleapis.com	             # Chromium.app
+# 127.0.0.1	fonts.googleapis.com		     # Chromium.app
+127.0.0.1	android.googleapis.com	             # Chromium.app
+127.0.0.1	translate.googleapis.com             # Chromium.app
+127.0.0.1	clients1.google.com		     # Chromium.app
+127.0.0.1	clients2.google.com	             # Chromium.app
+127.0.0.1	clients3.google.com	             # Chromium.app
+127.0.0.1	clients4.google.com	             # Chromium.app
+127.0.0.1	clients2.googleusercontent.com       # Chromium.app
+127.0.0.1	themes.googleusercontent.com	     # Chromium.app
+127.0.0.1	cache.pack.google.com	             # Chromium.app
+127.0.0.1	csi.gstatic.com			     # Chromium.app
+127.0.0.1	ssl.gstatic.com		             # Chromium.app
+127.0.0.1	www.gstatic.com		             # Chromium.app
+127.0.0.1	t0.gstatic.com			     # Chromium.app
+127.0.0.1	t1.gstatic.com			     # Chromium.app
+127.0.0.1	t2.gstatic.com			     # Chromium.app
+127.0.0.1	t3.gstatic.com			     # Chromium.app
+127.0.0.1	android.clients.google.com	     # Chromium.app
+# 127.0.0.1	fonts.gstatic.com		     # Chromium.app
+127.0.0.1	safebrowsing.clients.google.com      # Chromium.app
+127.0.0.1	alt1-safebrowsing.google.com	     # Chromium.app
+127.0.0.1	alt2-safebrowsing.google.com	     # Chromium.app
+127.0.0.1	alt3-safebrowsing.google.com	     # Chromium.app
+127.0.0.1	safebrowsing.google.com		     # Chromium.app
+127.0.0.1	sb-ssl.google.com		     # Chromium.app
+127.0.0.1	talkgadget.google.com		     # Chromium.app
+127.0.0.1	talkx.l.google.com		     # Chromium.app
+127.0.0.1	talk.google.com			     # Chromium.app
+127.0.0.1	mtalk.google.com		     # Chromium.app
+127.0.0.1	xmpp.google.com			     # Chromium.app
+127.0.0.1	xmppx.l.google.com		     # Chromium.app
+127.0.0.1	relay.google.com		     # Chromium.app
+127.0.0.1	stun.l.google.com		     # Chromium.app
+127.0.0.1	accounts.google.com		     # Chromium.app
+127.0.0.1	accounts.youtube.com		     # Chromium.app
+127.0.0.1	accounts.blogger.com		     # Chromium.app
+127.0.0.1	i18napis.appspot.com		     # Chromium.app
+127.0.0.1	googleads4.g.doubleclick.net	     # Chromium.app
+127.0.0.1	googleads.g.doubleclick.net	     # Chromium.app
+127.0.0.1	ad.doubleclick.net		     # Chromium.app
+127.0.0.1	pubads.g.doubleclick.net	     # Chromium.app
+127.0.0.1	c.admob.com			     # Chromium.app
+127.0.0.1	e.admob.com			     # Chromium.app
+127.0.0.1	media.admob.com			     # Chromium.app
+127.0.0.1	lh3.ggpht.com			     # Chromium.app
+127.0.0.1	lh4.ggpht.com			     # Chromium.app
+127.0.0.1	lh5.ggpht.com			     # Chromium.app
+127.0.0.1	lh6.ggpht.com			     # Chromium.app
+127.0.0.1	pagead2.googlesyndication.com	     # Chromium.app
+127.0.0.1	partner.googleadservices.com	     # Chromium.app
+127.0.0.1	www.googleadservices.com	     # Chromium.app
+127.0.0.1	s0.2mdn.net			     # Chromium.app
+127.0.0.1	prod.fastly.net			     # Chromium.app
+127.0.0.1	chrome.googleechotest.com	     # Chromium.app
+# 127.0.0.1	chrome-devtools-frontend.appspot.com # Chromium.app
+# 127.0.0.1	redirector.googlevideo.com	     # Chromium.app
+# 127.0.0.1	redirector.gvt1.com		     # Chromium.app
+# 127.0.0.1	etherx.jabber.org         	     # Chromium.app
