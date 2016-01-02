@@ -10,7 +10,7 @@
 
 * I searched the entire OS X Mavericks base installation for hardcoded URLs and IP addresses. The domain names used in the URLs are hardwired to 127.0.0.1 in `/etc/hosts`. The IP addresses are natted to 127.0.0.1 in `/etc/pf.conf`. A number of LaunchAgents, LaunchDaemons, UserEventPlugins plus all Dashboard Widgets should be disabled by moving them to, say, `/root/disabled/`. Those are listed in `disabled-services`.
 * Edit `/System/Library/LaunchDaemons/com.apple.mDNSResponder.plist` and add the undocumented option `-NoMulticastAdvertisements`.
-* Disable Dashboard: `defaults write com.apple.dashboard mcx-disabled -boolean NO && killall Dock`
+* Disable Dashboard: `defaults write com.apple.dashboard mcx-disabled -boolean YES && killall Dock`
 * Disable some IPv6 features of dubious merit in `/etc/sysctl.conf`.
 
 ### Caution
