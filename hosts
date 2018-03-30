@@ -199,7 +199,7 @@ fe80::1%lo0	localhost
 127.0.0.1	appleseed-temp.apple.com         # Feedback Assistant.app
 127.0.0.1	crucio.apple.com	         # Feedback Assistant.app
 127.0.0.1	ac-at.apple.com		         # Feedback Assistant.app
-127.0.0.1	iforgott.apple.com	         # Feedback Assistant.app
+127.0.0.1	iforgot.apple.com	         # Feedback Assistant.app
 127.0.0.1	mobile-uat.corp.apple.com        # Feedback Assistant.app
 127.0.0.1	idmswt.corp.apple.com	         # Feedback Assistant.app
 127.0.0.1	mobile.apple.com	         # Feedback Assistant.app
