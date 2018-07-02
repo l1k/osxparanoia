@@ -29,6 +29,7 @@
 ```
 
 Note: this does not work anymore since High Sierra.
+
 Note: Deauthing your device from your AppleID will clear the NVRAM for you.
 
 ### Ideas for further hacks
