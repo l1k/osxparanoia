@@ -28,6 +28,10 @@
 /usr/sbin/nvram 36C28AB5-6566-4C50-9EBD-CBB920F83843:preferred-count
 ```
 
+Note: this does not work anymore since High Sierra.
+
+Note: Deauthing your device from your AppleID will clear the NVRAM for you.
+
 ### Ideas for further hacks
 
 * Use a proxy on the local machine to MitM or spoof traffic to Cupertino.
